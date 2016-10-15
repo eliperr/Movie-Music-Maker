@@ -13,21 +13,21 @@ p {
     font-size: 20px;
     color:azure;
 }
-#vader
+#Vader
 {
-    font-family: death star;
-    color:red 
+    font-family: verdana;
+    color:red;
 }
 
 #Luke
-{ 
+{
     font-family: verdana;
-    color:aqua; 
+    color:aqua;
 }
-.center
-{   display: block;
-    margin: auto; /* why will not center?*/ 
-    /*width:2%;*/
-    /*border: 3px solid green;*/
-    
+
+.center {
+
+}
+.imgContainer{
+    display:inline-block;
 }
