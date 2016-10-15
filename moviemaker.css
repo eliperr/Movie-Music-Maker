@@ -14,24 +14,25 @@ p {
     color:azure;
 }
 
-#Vader
-{
+#Vader {
     font-family: verdana;
     color:red;
 }
 
-#Luke
-{
+#Luke {
     font-family: verdana;
     color:aqua;
 }
 
-#Yoda
-{
+#Yoda {
     font-family: verdana;
     color:green;
 }
 
-.imgContainer{
+.imgContainer {
     display:inline-block;
+}
+
+.buttonRound {
+  border-radius: 8px;
 }
