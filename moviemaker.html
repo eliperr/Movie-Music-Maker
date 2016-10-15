@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="moviemaker.js"></script>
  <link rel="stylesheet" type="text/css" href="moviemaker.css">
   <title>Movie Music Maker</title>
 </head>
@@ -12,24 +13,20 @@
 
  <div class = "center" > <!-- I'm trying to center everything but it will not work.-->
      <div id="vader">
-    <button type="button"  onclick="alert('Stars wars music')" >
+    <button type="button"  onclick="PlayOrPause('vader')">
      <img src="http://vignette1.wikia.nocookie.net/vsbattles/images/7/7d/Darthvader2.png/revision/latest?cb=20151108134743"  style="width:200px;height:200px;"></button>
          <h2>
           Darth Vader
          </h2>
-    <audio controls>
-         <source src="The Imperial March (Darth Vaders Theme).mp3"type="audio/mpeg">
-     </audio>
+    <audio id="vader" src="The Imperial March (Darth Vaders Theme).mp3"> </audio>
   </div>
    <div> 
-     <button type="button"onClick="document.getElementById('lukeMusic').play()"> <img src="http://www.flickeringmyth.com/wp-content/uploads/2016/03/luke-skywalker-star-wars-force-awakens-600x375.jpg"  style="width:220px;height:200px;"></button>
+     <button type="button"onClick="PlayOrPause('lukeMusic')"> <img src="http://www.flickeringmyth.com/wp-content/uploads/2016/03/luke-skywalker-star-wars-force-awakens-600x375.jpg"  style="width:220px;height:200px;"></button>
          
        <h2 id="Luke">
          Luke Skywalker
          </h2>
-  <audio controls id="lukeMusic">
-         <source src="Star Wars Theme.mp3"type="audio/mpeg">
-     </audio>
+  <audio id="lukeMusic" src="Star Wars Theme.mp3" ></audio>
        
   </div>    
  </div>
