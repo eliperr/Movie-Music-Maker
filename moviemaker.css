@@ -11,7 +11,7 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
-    color:azure;
+    color:crimson
 }
 #vader
 {
@@ -19,11 +19,6 @@ p {
     color:red 
 }
 
-#Luke
-{ 
-    font-family: verdana;
-    color:aqua; 
-}
 .center
 {   display: block;
     margin: auto; /* why will not center?*/ 
