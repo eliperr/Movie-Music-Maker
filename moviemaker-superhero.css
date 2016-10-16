@@ -17,21 +17,25 @@ p {
 }
 #SUPER
 {   font-family: verdana;
-   
+
     color:dodgerblue;  <!--FIND FONT-->
 }
 
 #BAT
 {   font-family: verdana;
-   
+
     color:slategray;  <!--FIND FONT-->
 }
 
 #SPIDER
 {   font-family: verdana;
-   
+
     color:firebrick;  <!--FIND FONT-->
 }
-.imgContainer{ 
+.imgContainer{
     display:inline-block;
+}
+
+.buttonRound {
+  border-radius: 8px;
 }
