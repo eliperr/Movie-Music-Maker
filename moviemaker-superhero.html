@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="moviemaker.js"></script>
+ <link rel="stylesheet" type="text/css" href="moviemaker-superhero.css">
+  <title>Movie Music Maker</title>
+</head>
+<body>
+
+ <h1>Movie Music Maker</h1>
+
+    <p>Click on a hero to hear their music.</p>
+
+
+     <div class="imgContainer">
+    <button type="button" class="buttonRound" onclick="PlayOrPause('super')">
+     <img src="http://www.cheatsheet.com/wp-content/uploads/2016/04/Christopher-Reeve-in-Superman.jpg"  style="width:230px;height:200px;"></button>
+         <h2 id="SUPER">
+               &nbsp  Superman    <!--space?-->
+         </h2>
+    <audio id="super" src="Superman Theme.mp3"> </audio>
+ </div>
+   <div class="imgContainer">
+     <button type="button" class="buttonRound" onClick="PlayOrPause('bat')">
+       <img src="http://cartoonbros.com/wp-content/uploads/2016/04/Batman-2.jpg"  style="width:270px;height:200px;"></button>
+
+       <h2 id="BAT">
+        &nbsp &nbsp  Batman
+         </h2>
+  <audio id="bat" src="Batman.mp3" ></audio>
+
+  </div>
+   <div class="imgContainer">
+     <button type="button" class="buttonRound" onClick="PlayOrPause('spider')">
+       <img src="http://weknowyourdreams.com/images/spiderman/spiderman-05.jpg"  style="width:270px;height:200px;"></button>
+
+       <h2 id="SPIDER">
+       &nbsp Spiderman
+         </h2>
+  <audio id="spider" src="Spiderman theme song 1960s.mp3" ></audio>
+
+  </div>
+
+ </div>
+</body>
+
+</html>

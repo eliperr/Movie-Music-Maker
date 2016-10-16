@@ -43,3 +43,10 @@ p {
 .imgContainer{
     display:inline-block;
 }
+.imgContainer {
+    display:inline-block;
+}
+
+.buttonRound {
+  border-radius: 8px;
+}

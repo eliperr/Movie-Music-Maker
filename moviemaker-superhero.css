@@ -1,0 +1,41 @@
+
+body {
+     background-image: url("http://cdn.pcwallart.com/images/dusk-sky-city-wallpaper-3.jpg");
+    background-color: black;
+    background-repeat:no-repeat;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color:azure;
+}
+#SUPER
+{   font-family: verdana;
+
+    color:dodgerblue;  <!--FIND FONT-->
+}
+
+#BAT
+{   font-family: verdana;
+
+    color:slategray;  <!--FIND FONT-->
+}
+
+#SPIDER
+{   font-family: verdana;
+
+    color:firebrick;  <!--FIND FONT-->
+}
+.imgContainer{
+    display:inline-block;
+}
+
+.buttonRound {
+  border-radius: 8px;
+}
