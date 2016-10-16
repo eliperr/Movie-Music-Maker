@@ -31,6 +31,10 @@ p {
     color:blueviolet;
 }
 
-.imgContainer{ 
+.imgContainer { 
     display:inline-block;
+}
+
+.buttonRound {
+  border-radius: 8px;
 }
