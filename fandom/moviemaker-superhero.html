@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="moviemaker.js"></script>
- <link rel="stylesheet" type="text/css" href="moviemaker-superhero.css">
-  <title>Movie Music Maker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="moviemaker-superhero.css">
 </head>
 <body>
 
- <h1>Movie Music Maker</h1>
 
-    <p>Click on a hero to hear their music.</p>
+<div style="background-image:url('http://cdn.pcwallart.com/images/dusk-sky-city-wallpaper-3.jpg')" data-role="page" id="pageone">
 
 
-     <div class="imgContainer">
-    <button type="button" class="buttonRound" onclick="PlayOrPause('super')">
-     <img src="http://www.cheatsheet.com/wp-content/uploads/2016/04/Christopher-Reeve-in-Superman.jpg"  style="width:230px;height:200px;"></button>
-         <h2 id="SUPER">
-               &nbsp  Superman    <!--space?-->
-         </h2>
-    <audio id="super" src="Superman Theme.mp3"> </audio>
- </div>
-   <div class="imgContainer">
-     <button type="button" class="buttonRound" onClick="PlayOrPause('bat')">
-       <img src="http://cartoonbros.com/wp-content/uploads/2016/04/Batman-2.jpg"  style="width:270px;height:200px;"></button>
+  <div data-role="main" class="ui-content">
+    <h1>Superheroes</h1>
+   <p><font color="white">Click on a hero to hear their music.</font></p>
+    <a href="#pageSUPER"><div class="imgContainer">
+    <button type="button" class="buttonRound">
+    <img src="http://www.cheatsheet.com/wp-content/uploads/2016/04/Christopher-Reeve-in-Superman.jpg"  style="width:200px;height:200px;"></button>
+    </a>
+    <h2 id="SUPER"> &nbsp Superman </h2></div>
 
-       <h2 id="BAT">
-        &nbsp &nbsp  Batman
-         </h2>
-  <audio id="bat" src="Batman.mp3" ></audio>
+     <a href="#pageBAT"><div class="imgContainer">
+     <button type="button" class="buttonRound">
+     <img src="http://cartoonbros.com/wp-content/uploads/2016/04/Batman-2.jpg"  style="width:200px;height:200px;"></button>
+     </a>
+     <h2 id="BAT"> &nbsp Batman </h2></div>
 
+      <a href="#pageSPIDER"><div class="imgContainer">
+      <button type="button" class="buttonRound">
+      <img src="http://weknowyourdreams.com/images/spiderman/spiderman-05.jpg"  style="width:200px;height:200px;"></button>
+      </a>
+      <h2 id="SPIDER"> &nbsp Spiderman </h2></div>
+</div>
+
+
+</div>
+
+<div data-role="page" data-dialog="true" id="pageSUPER">
+  <div data-role="header">
+    <h1 id="SUPER">Superman Music</h1>
   </div>
-   <div class="imgContainer">
-     <button type="button" class="buttonRound" onClick="PlayOrPause('spider')">
-       <img src="http://weknowyourdreams.com/images/spiderman/spiderman-05.jpg"  style="width:270px;height:200px;"></button>
 
-       <h2 id="SPIDER">
-       &nbsp Spiderman
-         </h2>
-  <audio id="spider" src="Spiderman theme song 1960s.mp3" ></audio>
-
+  <div data-role="main" class="ui-content">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125562979&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    <a href="#pageone">Go Back</a>
   </div>
 
- </div>
+</div>
+
+<div data-role="page" data-dialog="true" id="pageBAT">
+  <div data-role="header">
+    <h1 id="BAT">Batman Music</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238415805&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    <a href="#pageone">Go Back</a>
+  </div>
+
+</div>
+
+<div data-role="page" data-dialog="true" id="pageSPIDER">
+  <div data-role="header">
+    <h1 id="SPIDER">Spiderman Music</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/288174035&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+    <a href="#pageone">Go Back</a>
+  </div>
+
+</div>
+
+
 </body>
-
 </html>
