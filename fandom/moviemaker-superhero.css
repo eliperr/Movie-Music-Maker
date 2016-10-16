@@ -39,3 +39,11 @@ p {
 .buttonRound {
   border-radius: 8px;
 }
+
+#homeButton {
+    position: absolute;
+    right: 8px;
+    bottom: 16px;
+    height: 100px;
+    width: 100px;
+}
